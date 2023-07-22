@@ -4,7 +4,7 @@ import EsriMapView from './EsriMapView';
 function App() {
   return (
     <div>
-      <h1>My React App</h1>
+      <h1>TrailMatch</h1>
       <EsriMapView />
     </div>
   );

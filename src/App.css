@@ -527,3 +527,11 @@ body {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
 
 }
+
+.div-container{
+  display: flex;
+}
+
+.div-container-hidden{
+  display: hidden;
+}

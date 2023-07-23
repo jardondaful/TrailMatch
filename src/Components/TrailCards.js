@@ -6,10 +6,18 @@ import data from '../data'
 
 import React from 'react';
 import { Card } from 'primereact/card';
+import EsriMapView from './EsriMapView';
 const TrailCards = (props) => {
+
+    const [clickedSearch, setClickedSearch] = React.useState(props.viewStyle);
+    const [clickedSubmit, setClickedSubmit] = React.useState(false);
+    const [index, setIndex] = React.useState(1);
 
     const handleClick = event => {
         console.log(event.currentTarget.id);
+        setIndex(event.currentTarget.id)
+        setClickedSearch(false)
+        setClickedSubmit(true)
     };
 
     const cards = data.map(item => {
@@ -28,9 +36,19 @@ const TrailCards = (props) => {
     })     
 
     return (
-        <div className={props.viewStyle?'container':'container-hidden'}>
-            {cards} 
+        <div>
+            <div className={props.viewStyle && !clickedSubmit ?'container':'container-hidden'}>
+                {cards} 
+            </div>
+            <div className={clickedSubmit?'div-container':'div-container-hidden'}>
+                <EsriMapView 
+                    trailMap={data[index-1].ArcGISOnline1}
+                    accessibilityMap={data[index-1].ArcGISOnline2}
+                    experienceBuilder={data[index-1].ArcGISOnline1}
+                />
+            </div>
         </div>
+        
     )
   }
   

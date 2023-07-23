@@ -3,8 +3,9 @@ import React from 'react';
 const EsriMapView = (props) => {
   return (
     <div
+      className={props.clickedSubmit?'div-container':'div-container-hidden'}
       style={{
-        display: 'flex',
+        // display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',

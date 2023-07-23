@@ -11,7 +11,7 @@ const TrailCards = (props) => {
 
     const [clickedSearch, setClickedSearch] = React.useState(props.viewStyle);
     const [clickedSubmit, setClickedSubmit] = React.useState(false);
-    const [index, setIndex] = React.useState(1);
+    const [index, setIndex] = React.useState(-1);
 
     const handleClick = event => {
         console.log(event.currentTarget.id);
@@ -35,6 +35,7 @@ const TrailCards = (props) => {
             )
     })     
 
+    if(index!==-1){
     return (
         <div>
             <div className={props.viewStyle && !clickedSubmit ?'container':'container-hidden'}>
@@ -49,7 +50,15 @@ const TrailCards = (props) => {
             </div>
         </div>
         
-    )
+    )}
+    else{
+        return(
+            <div className={props.viewStyle && !clickedSubmit ?'container':'container-hidden'}>
+                {cards} 
+            </div>
+
+        )
+    }
   }
   
   export default TrailCards

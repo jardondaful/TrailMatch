@@ -54,7 +54,7 @@ const EsriMapView = (props) => {
       <div
         style={{
           gridArea: '1 / 2 / 3 / 4',
-          height: '600px',
+          height: '650px',
           boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
           border: '1px solid #000',
           borderRadius: '4px',
@@ -67,6 +67,9 @@ const EsriMapView = (props) => {
           style={{ width: '100%', height: '100%', border: 'none' }}
         />
       </div>
+	  	<div>
+			<a href={props.experienceBuilder} target="_blank">Click here to open experience builder in a new tab</a>
+		</div>
     </div>
   );
 };

@@ -26,7 +26,7 @@ const TrailCards = (props) => {
                 <div className="child" id={item.IncidentID} onClick={handleClick}>
                     <Card 
                         title={item.ImageTitle}
-                        style={{ width: '20em' , border:"black solid 1px"}}
+                        style={{ width: '25em' , border:"black solid 1px"}}
                         header={<img alt="Card" src={item.ImagePath}/>}
                     >
                         <p className="m-0" style={{lineHeight: '1.5'}}>{item.ImageDescription}</p>

@@ -244,6 +244,13 @@ img.flag {
   justify-content: center;
 }
 
+.container-hidden{
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .child{
   margin: 20px;
   padding: 20px;
@@ -416,6 +423,19 @@ body {
 
 }
 
+.search-page-clicked {
+
+  display: none;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: calc(100vh - 60px); /* Adjust for the height of the navbar */
+
+}
 
 
 .search-title {

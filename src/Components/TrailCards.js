@@ -45,7 +45,7 @@ const TrailCards = (props) => {
                 <EsriMapView 
                     trailMap={data[index-1].ArcGISOnline1}
                     accessibilityMap={data[index-1].ArcGISOnline2}
-                    experienceBuilder={data[index-1].ArcGISOnline1}
+                    experienceBuilder={data[index-1].ExpBuilder}
                 />
             </div>
         </div>

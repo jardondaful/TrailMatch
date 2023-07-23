@@ -451,6 +451,22 @@ body {
 .search-bar {
 
   display: flex;
+  width: 600px;
+  align-items: center;
+
+  border-radius: 50px; /* Creating a circle-like search bar */
+
+  background-color: #f1f1f1;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  padding: 8px 20px;
+
+}
+
+.input-search-bar {
+
+  display: flex;
 
   align-items: center;
 
@@ -511,21 +527,14 @@ body {
 
 
 .search-bar button:hover {
-
   background-color: #eee; /* Lighter shade on hover */
-
 }
-
-
 
 /* Animation for focus effect */
 
 .search-bar input[type="text"]:focus {
-
   background-color: #fff;
-
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
-
 }
 
 .div-container{

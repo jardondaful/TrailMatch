@@ -1,10 +1,14 @@
-## Getting Started
+# TrailMatch
 
-Follow these instructions to set up and run the app on your local machine.
+TrailMatch is an application that utilizes natural language processing to recommend and visualize your ideal hiking trail based on your own user input.
+
+### Getting Started
+
+Follow these instructions to set up and run the TrailMatch app on your local machine.
 
 ### Prerequisites
 
-Make sure you have Node.js and npm installed on your machine.
+Before getting started, ensure that you have Node.js and npm (Node Package Manager) installed on your machine.
 
 ### Installation
 
@@ -12,25 +16,21 @@ Make sure you have Node.js and npm installed on your machine.
 
 2. Install the required dependencies using npm:
 
-   ```
+   ```bash
    npm install
    npm install --save esri-loader
    ```
 
 ### Running the App
 
-To start the development server and run the app, use the following command:
+To start the development server and run the TrailMatch app, use the following command:
 
-```
+```bash
 npm start
 ```
 
-The app should now be running on [http://localhost:3000](http://localhost:3000).
+The app should now be accessible at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-## Usage
+### Usage
 
-The app displays a map with a feature layer showing the carbon storage of trees in Warren Wilson College. The map uses the "hybrid" basemap from ArcGIS.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+To use our applicaiton, simply enter your ideal trail details using natural language, and TrailMatch will process the input to recommend the best-suited trails for you.

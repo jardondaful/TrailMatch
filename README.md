@@ -12,6 +12,7 @@ TrailMatch harnesses the power of cutting-edge Natural Language Processing (NLP)
 With TrailMatch, the possibilities are endless. Whether you seek a breathtaking sunset view, easy access to gas and charging stations, or a trail with just the right length, our AI-powered recommendations will lead you to the trails of your dreams.
 
 ## Visualize and Explore Like Never Before!
+![MicrosoftTeams-image](https://github.com/jardondaful/TrailMatch/assets/68207907/a09a0c2f-68f8-4569-bffc-dbcbc898b91d)
 
 The fun doesn't stop at recommendations. Click on a trail's logo, and you'll be transported to an immersive map showcasing vital trail data, including sunset indices, proximity to fuel and charging stations, trail length, and even a mesmerizing three-dimensional view!
 

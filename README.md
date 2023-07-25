@@ -2,6 +2,7 @@
 Welcome to TrailMatch - the ultimate app that takes your love for hiking to new heights! 🌲⛰️
 
 ![MicrosoftTeams-image (1)](https://github.com/jardondaful/TrailMatch/assets/68207907/c8ea025f-ae25-4436-b93b-3f30af76701a)
+
 ## Experience the Magic of Natural Language Processing!
 
 TrailMatch harnesses the power of cutting-edge Natural Language Processing (NLP) and the ChatGPT API to create an exhilarating hiking experience tailored just for you. Say goodbye to the days of searching aimlessly for the perfect trail – TrailMatch has got you covered!

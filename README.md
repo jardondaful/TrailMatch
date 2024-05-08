@@ -1,4 +1,4 @@
-# TrailMatch - Discover Your Perfect Hiking Trail!
+# TrailMatch - Hiking Made Easy!
 Welcome to TrailMatch - the ultimate app that takes your love for hiking to new heights! 🌲⛰️
 
 ![MicrosoftTeams-image (1)](https://github.com/jardondaful/TrailMatch/assets/68207907/c8ea025f-ae25-4436-b93b-3f30af76701a)
